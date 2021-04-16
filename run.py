@@ -14,7 +14,7 @@ def inicio():
 @app.route('/suma')
 def suma():
     resultado = 5 + 5
-    return "<h1>5 + 5 = %d</h1>" % (resultado)
+    return "<h3>5 + 5 = %d</h3>" % (resultado)
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=8000, debug=True)
